@@ -1,0 +1,42 @@
+/* Images */
+img{
+    height:700px;
+    object-fit:cover;
+}
+
+.card img{
+    height:500px;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover{
+    color:bisque;
+}
+
+#navTitle{
+    color:rgb(166, 224, 246);
+}
+
+h5{
+    color:rgb(7, 191, 204);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/*Media query for small screens */
+@media (max-width: 575.98px) { 
+.card img{
+height:150px;
+    }
+.card{
+    height: 730px;
+}
+}
